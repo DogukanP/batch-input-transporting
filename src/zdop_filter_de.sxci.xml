@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_SXCI" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <SXCI>
+    <IMPLEMENTATION_DATA>
+     <IMP_NAME>ZDOP_FILTER_DE</IMP_NAME>
+     <TEXT>ALMAN MÜŞTERİLER İÇİN KDV HESAPLAMALARI</TEXT>
+     <IMP_CLASS>ZCL_IM_DOP_FILTER_DE</IMP_CLASS>
+     <EXIT_NAME>ZDOP_FILTER_BADI</EXIT_NAME>
+     <INTER_NAME>ZIF_EX_DOP_FILTER_BADI</INTER_NAME>
+     <ACTIVE>X</ACTIVE>
+    </IMPLEMENTATION_DATA>
+    <FILTERS>
+     <item>
+      <FLT_VAL>DE</FLT_VAL>
+     </item>
+    </FILTERS>
+   </SXCI>
+  </asx:values>
+ </asx:abap>
+</abapGit>

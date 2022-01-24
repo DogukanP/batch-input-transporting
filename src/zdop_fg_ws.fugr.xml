@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_FUGR" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <AREAT>fg for web service</AREAT>
+   <INCLUDES>
+    <SOBJ_NAME>LZDOP_FG_WSTOP</SOBJ_NAME>
+    <SOBJ_NAME>SAPLZDOP_FG_WS</SOBJ_NAME>
+   </INCLUDES>
+   <FUNCTIONS>
+    <item>
+     <FUNCNAME>ZDOP_WS</FUNCNAME>
+     <REMOTE_CALL>R</REMOTE_CALL>
+     <SHORT_TEXT>web service trial</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>I_NUM1</PARAMETER>
+       <TYP>INT4</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>I_NUM2</PARAMETER>
+       <TYP>INT4</TYP>
+      </RSIMP>
+     </IMPORT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>E_RESULT</PARAMETER>
+       <TYP>INT4</TYP>
+      </RSEXP>
+     </EXPORT>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>I_NUM1</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>4 bayt işaretli tamsayı</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>I_NUM2</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>4 bayt işaretli tamsayı</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>E_RESULT</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>4 bayt işaretli tamsayı</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>ZDOP_WS_CONVERT</FUNCNAME>
+     <REMOTE_CALL>R</REMOTE_CALL>
+     <SHORT_TEXT>web servis eğitimi - convert çeşitleri</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>I_MATNR</PARAMETER>
+       <TYP>MATNR</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>I_DATE</PARAMETER>
+       <TYP>DATUM</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>I_NUM1</PARAMETER>
+       <TYP>WRBTR</TYP>
+      </RSIMP>
+     </IMPORT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>E_MALZEME</PARAMETER>
+       <TYP>MAKTX</TYP>
+      </RSEXP>
+      <RSEXP>
+       <PARAMETER>E_MSG</PARAMETER>
+       <TYP>TEXT100</TYP>
+      </RSEXP>
+      <RSEXP>
+       <PARAMETER>E_DATE</PARAMETER>
+       <TYP>TEXT100</TYP>
+      </RSEXP>
+      <RSEXP>
+       <PARAMETER>E_NUM1</PARAMETER>
+       <TYP>TEXT100</TYP>
+      </RSEXP>
+     </EXPORT>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>I_MATNR</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Malzeme numarası</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>I_DATE</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Tarih</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>I_NUM1</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Belge para birimi cinsinden tutar</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>E_MALZEME</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Malzeme kısa metni</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>E_MSG</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Metin (100 krkt.)</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>E_DATE</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Metin (100 krkt.)</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>E_NUM1</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Metin (100 krkt.)</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+   </FUNCTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

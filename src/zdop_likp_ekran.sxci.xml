@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_SXCI" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <SXCI>
+    <IMPLEMENTATION_DATA>
+     <IMP_NAME>ZDOP_LIKP_EKRAN</IMP_NAME>
+     <TEXT>xdogukanp : likp ek alanlar</TEXT>
+     <IMP_CLASS>ZCL_IM_DOP_LIKP_EKRAN</IMP_CLASS>
+     <EXIT_NAME>LE_SHP_TAB_CUST_HEAD</EXIT_NAME>
+     <INTER_NAME>IF_EX_LE_SHP_TAB_CUST_HEAD</INTER_NAME>
+    </IMPLEMENTATION_DATA>
+   </SXCI>
+  </asx:values>
+ </asx:abap>
+</abapGit>

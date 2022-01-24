@@ -1,0 +1,953 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_FUGR" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <AREAT>BTE ORNEK İÇİN FG</AREAT>
+   <INCLUDES>
+    <SOBJ_NAME>LZDOP_BTE_ORNEKTOP</SOBJ_NAME>
+    <SOBJ_NAME>SAPLZDOP_BTE_ORNEK</SOBJ_NAME>
+   </INCLUDES>
+   <FUNCTIONS>
+    <item>
+     <FUNCNAME>ZDOP_BTE_MALZEME_DEGISIM</FUNCNAME>
+     <SHORT_TEXT>Interface Description for Event 00001250 (Material)</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>I_MARA_NEW</PARAMETER>
+       <DBFIELD>MARA</DBFIELD>
+       <OPTIONAL>X</OPTIONAL>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>I_MARA_OLD</PARAMETER>
+       <DBFIELD>MARA</DBFIELD>
+       <OPTIONAL>X</OPTIONAL>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>UPD_MARA</PARAMETER>
+       <DBFIELD>CDPOS-CHNGIND</DBFIELD>
+       <OPTIONAL>X</OPTIONAL>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>I_MARC_NEW</PARAMETER>
+       <DBFIELD>MARC</DBFIELD>
+       <OPTIONAL>X</OPTIONAL>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>I_MARC_OLD</PARAMETER>
+       <DBFIELD>MARC</DBFIELD>
+       <OPTIONAL>X</OPTIONAL>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>UPD_MARC</PARAMETER>
+       <DBFIELD>CDPOS-CHNGIND</DBFIELD>
+       <OPTIONAL>X</OPTIONAL>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>I_MARD_NEW</PARAMETER>
+       <DBFIELD>MARD</DBFIELD>
+       <OPTIONAL>X</OPTIONAL>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>I_MARD_OLD</PARAMETER>
+       <DBFIELD>MARD</DBFIELD>
+       <OPTIONAL>X</OPTIONAL>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>UPD_MARD</PARAMETER>
+       <DBFIELD>CDPOS-CHNGIND</DBFIELD>
+       <OPTIONAL>X</OPTIONAL>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>I_MBEW_NEW</PARAMETER>
+       <DBFIELD>MBEW</DBFIELD>
+       <OPTIONAL>X</OPTIONAL>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>I_MBEW_OLD</PARAMETER>
+       <DBFIELD>MBEW</DBFIELD>
+       <OPTIONAL>X</OPTIONAL>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>UPD_MBEW</PARAMETER>
+       <DBFIELD>CDPOS-CHNGIND</DBFIELD>
+       <OPTIONAL>X</OPTIONAL>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>I_MFHM_NEW</PARAMETER>
+       <DBFIELD>MFHM</DBFIELD>
+       <OPTIONAL>X</OPTIONAL>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>I_MFHM_OLD</PARAMETER>
+       <DBFIELD>MFHM</DBFIELD>
+       <OPTIONAL>X</OPTIONAL>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>UPD_MFHM</PARAMETER>
+       <DBFIELD>CDPOS-CHNGIND</DBFIELD>
+       <OPTIONAL>X</OPTIONAL>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>I_MLGN_NEW</PARAMETER>
+       <DBFIELD>MLGN</DBFIELD>
+       <OPTIONAL>X</OPTIONAL>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>I_MLGN_OLD</PARAMETER>
+       <DBFIELD>MLGN</DBFIELD>
+       <OPTIONAL>X</OPTIONAL>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>UPD_MLGN</PARAMETER>
+       <DBFIELD>CDPOS-CHNGIND</DBFIELD>
+       <OPTIONAL>X</OPTIONAL>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>I_MLGT_NEW</PARAMETER>
+       <DBFIELD>MLGT</DBFIELD>
+       <OPTIONAL>X</OPTIONAL>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>I_MLGT_OLD</PARAMETER>
+       <DBFIELD>MLGT</DBFIELD>
+       <OPTIONAL>X</OPTIONAL>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>UPD_MLGT</PARAMETER>
+       <DBFIELD>CDPOS-CHNGIND</DBFIELD>
+       <OPTIONAL>X</OPTIONAL>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>I_MPGD_NEW</PARAMETER>
+       <DBFIELD>MPGD</DBFIELD>
+       <OPTIONAL>X</OPTIONAL>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>I_MPGD_OLD</PARAMETER>
+       <DBFIELD>MPGD</DBFIELD>
+       <OPTIONAL>X</OPTIONAL>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>UPD_MPGD</PARAMETER>
+       <DBFIELD>CDPOS-CHNGIND</DBFIELD>
+       <OPTIONAL>X</OPTIONAL>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>I_MPOP_NEW</PARAMETER>
+       <DBFIELD>MPOP</DBFIELD>
+       <OPTIONAL>X</OPTIONAL>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>I_MPOP_OLD</PARAMETER>
+       <DBFIELD>MPOP</DBFIELD>
+       <OPTIONAL>X</OPTIONAL>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>UPD_MPOP</PARAMETER>
+       <DBFIELD>CDPOS-CHNGIND</DBFIELD>
+       <OPTIONAL>X</OPTIONAL>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>I_MVKE_NEW</PARAMETER>
+       <DBFIELD>MVKE</DBFIELD>
+       <OPTIONAL>X</OPTIONAL>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>I_MVKE_OLD</PARAMETER>
+       <DBFIELD>MVKE</DBFIELD>
+       <OPTIONAL>X</OPTIONAL>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>UPD_MVKE</PARAMETER>
+       <DBFIELD>CDPOS-CHNGIND</DBFIELD>
+       <OPTIONAL>X</OPTIONAL>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>UPD_MAKT</PARAMETER>
+       <DBFIELD>CDPOS-CHNGIND</DBFIELD>
+       <OPTIONAL>X</OPTIONAL>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>UPD_MARM</PARAMETER>
+       <DBFIELD>CDPOS-CHNGIND</DBFIELD>
+       <OPTIONAL>X</OPTIONAL>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>UPD_MEAN</PARAMETER>
+       <DBFIELD>CDPOS-CHNGIND</DBFIELD>
+       <OPTIONAL>X</OPTIONAL>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>UPD_MLAN</PARAMETER>
+       <DBFIELD>CDPOS-CHNGIND</DBFIELD>
+       <OPTIONAL>X</OPTIONAL>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>UPD_ICDTXT_MATERIAL</PARAMETER>
+       <DBFIELD>CDPOS-CHNGIND</DBFIELD>
+       <OPTIONAL>X</OPTIONAL>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>UPD_PROW</PARAMETER>
+       <DBFIELD>CDPOS-CHNGIND</DBFIELD>
+       <OPTIONAL>X</OPTIONAL>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>UPD_GESV</PARAMETER>
+       <DBFIELD>CDPOS-CHNGIND</DBFIELD>
+       <OPTIONAL>X</OPTIONAL>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>UPD_UNGV</PARAMETER>
+       <DBFIELD>CDPOS-CHNGIND</DBFIELD>
+       <OPTIONAL>X</OPTIONAL>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>UPD_MAEX</PARAMETER>
+       <DBFIELD>CDPOS-CHNGIND</DBFIELD>
+       <OPTIONAL>X</OPTIONAL>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>UPD_MAPE</PARAMETER>
+       <DBFIELD>CDPOS-CHNGIND</DBFIELD>
+       <OPTIONAL>X</OPTIONAL>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>UPD_MKAL</PARAMETER>
+       <DBFIELD>CDPOS-CHNGIND</DBFIELD>
+       <OPTIONAL>X</OPTIONAL>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>UPD_QMAT</PARAMETER>
+       <DBFIELD>CDPOS-CHNGIND</DBFIELD>
+       <OPTIONAL>X</OPTIONAL>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>FL_UPD_TASK</PARAMETER>
+       <OPTIONAL>X</OPTIONAL>
+       <TYP>XFELD</TYP>
+      </RSIMP>
+     </IMPORT>
+     <TABLES>
+      <RSTBL>
+       <PARAMETER>T_ICDTXT_MATERIAL</PARAMETER>
+       <DBSTRUCT>CDTXT</DBSTRUCT>
+       <OPTIONAL>X</OPTIONAL>
+      </RSTBL>
+      <RSTBL>
+       <PARAMETER>T_MAKT_NEW</PARAMETER>
+       <DBSTRUCT>XDMAKT</DBSTRUCT>
+       <OPTIONAL>X</OPTIONAL>
+      </RSTBL>
+      <RSTBL>
+       <PARAMETER>T_MAKT_OLD</PARAMETER>
+       <DBSTRUCT>XDMAKT</DBSTRUCT>
+       <OPTIONAL>X</OPTIONAL>
+      </RSTBL>
+      <RSTBL>
+       <PARAMETER>T_MARM_NEW</PARAMETER>
+       <DBSTRUCT>XDMARM</DBSTRUCT>
+       <OPTIONAL>X</OPTIONAL>
+      </RSTBL>
+      <RSTBL>
+       <PARAMETER>T_MARM_OLD</PARAMETER>
+       <DBSTRUCT>XDMARM</DBSTRUCT>
+       <OPTIONAL>X</OPTIONAL>
+      </RSTBL>
+      <RSTBL>
+       <PARAMETER>T_MEAN_NEW</PARAMETER>
+       <DBSTRUCT>XDMEAN</DBSTRUCT>
+       <OPTIONAL>X</OPTIONAL>
+      </RSTBL>
+      <RSTBL>
+       <PARAMETER>T_MEAN_OLD</PARAMETER>
+       <DBSTRUCT>XDMEAN</DBSTRUCT>
+       <OPTIONAL>X</OPTIONAL>
+      </RSTBL>
+      <RSTBL>
+       <PARAMETER>T_MLAN_NEW</PARAMETER>
+       <DBSTRUCT>XDMLAN</DBSTRUCT>
+       <OPTIONAL>X</OPTIONAL>
+      </RSTBL>
+      <RSTBL>
+       <PARAMETER>T_MLAN_OLD</PARAMETER>
+       <DBSTRUCT>XDMLAN</DBSTRUCT>
+       <OPTIONAL>X</OPTIONAL>
+      </RSTBL>
+      <RSTBL>
+       <PARAMETER>T_MAEX_NEW</PARAMETER>
+       <DBSTRUCT>XDMAEX</DBSTRUCT>
+       <OPTIONAL>X</OPTIONAL>
+      </RSTBL>
+      <RSTBL>
+       <PARAMETER>T_MAEX_OLD</PARAMETER>
+       <DBSTRUCT>XDMAEX</DBSTRUCT>
+       <OPTIONAL>X</OPTIONAL>
+      </RSTBL>
+      <RSTBL>
+       <PARAMETER>T_MAPE_NEW</PARAMETER>
+       <DBSTRUCT>XDMAPE</DBSTRUCT>
+       <OPTIONAL>X</OPTIONAL>
+      </RSTBL>
+      <RSTBL>
+       <PARAMETER>T_MAPE_OLD</PARAMETER>
+       <DBSTRUCT>XDMAPE</DBSTRUCT>
+       <OPTIONAL>X</OPTIONAL>
+      </RSTBL>
+      <RSTBL>
+       <PARAMETER>T_MKAL_NEW</PARAMETER>
+       <DBSTRUCT>XDMKAL</DBSTRUCT>
+       <OPTIONAL>X</OPTIONAL>
+      </RSTBL>
+      <RSTBL>
+       <PARAMETER>T_MKAL_OLD</PARAMETER>
+       <DBSTRUCT>XDMKAL</DBSTRUCT>
+       <OPTIONAL>X</OPTIONAL>
+      </RSTBL>
+      <RSTBL>
+       <PARAMETER>T_PROW_NEW</PARAMETER>
+       <DBSTRUCT>XDPROW</DBSTRUCT>
+       <OPTIONAL>X</OPTIONAL>
+      </RSTBL>
+      <RSTBL>
+       <PARAMETER>T_PROW_OLD</PARAMETER>
+       <DBSTRUCT>XDPROW</DBSTRUCT>
+       <OPTIONAL>X</OPTIONAL>
+      </RSTBL>
+      <RSTBL>
+       <PARAMETER>T_QMAT_NEW</PARAMETER>
+       <DBSTRUCT>XDQMAT</DBSTRUCT>
+       <OPTIONAL>X</OPTIONAL>
+      </RSTBL>
+      <RSTBL>
+       <PARAMETER>T_QMAT_OLD</PARAMETER>
+       <DBSTRUCT>XDQMAT</DBSTRUCT>
+       <OPTIONAL>X</OPTIONAL>
+      </RSTBL>
+      <RSTBL>
+       <PARAMETER>T_GESV_NEW</PARAMETER>
+       <DBSTRUCT>XDGESV</DBSTRUCT>
+       <OPTIONAL>X</OPTIONAL>
+      </RSTBL>
+      <RSTBL>
+       <PARAMETER>T_GESV_OLD</PARAMETER>
+       <DBSTRUCT>XDGESV</DBSTRUCT>
+       <OPTIONAL>X</OPTIONAL>
+      </RSTBL>
+      <RSTBL>
+       <PARAMETER>T_UNGV_NEW</PARAMETER>
+       <DBSTRUCT>XDUNGV</DBSTRUCT>
+       <OPTIONAL>X</OPTIONAL>
+      </RSTBL>
+      <RSTBL>
+       <PARAMETER>T_UNGV_OLD</PARAMETER>
+       <DBSTRUCT>XDUNGV</DBSTRUCT>
+       <OPTIONAL>X</OPTIONAL>
+      </RSTBL>
+     </TABLES>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>I_MARA_NEW</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Client-Specific Material Data (New Status)</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>I_MARA_OLD</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Client-Specific Material Data (Old Status)</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>UPD_MARA</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Type of Change Regarding MARA</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>I_MARC_NEW</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Plant-Specific Material Data (New Status)</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>I_MARC_OLD</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Plant-Specific Material Data (Old Status)</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>UPD_MARC</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Type of Change Regarding MARC</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>I_MARD_NEW</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Storage Location-Specific Material Data (New Status)</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>I_MARD_OLD</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Storage Location-Specific Material Data (Old Status)</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>UPD_MARD</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Type of Change Regarding MARD</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>I_MBEW_NEW</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Valuation Data (New Status)</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>I_MBEW_OLD</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Valuation Data (Old Status)</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>UPD_MBEW</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Type of Change Regarding MBEW</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>I_MFHM_NEW</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Production Resource/Tool Data (New Status)</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>I_MFHM_OLD</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Production Resource/Tool Data (Old Status)</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>UPD_MFHM</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Type of Change Regarding MFHM</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>I_MLGN_NEW</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Warehouse Number-Specific Material Data (New Status)</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>I_MLGN_OLD</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Warehouse Number-Specific Material Data (Old Status)</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>UPD_MLGN</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Type of Change Regarding MLGN</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>I_MLGT_NEW</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Storage Type-Specific Material Data (New Status)</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>I_MLGT_OLD</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Storage Type-Specific Material Data (Old Status)</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>UPD_MLGT</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Type of Change Regarding MLGT</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>I_MPGD_NEW</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Planning Data (New Status)</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>I_MPGD_OLD</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Planning Data (Old Status)</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>UPD_MPGD</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Type of Change Regarding MPGD</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>I_MPOP_NEW</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Forecast Parameter (New Status)</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>I_MPOP_OLD</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Forecast Parameter (Old Status)</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>UPD_MPOP</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Type of Change Regarding MPOP</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>I_MVKE_NEW</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Sales Data (New Status)</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>I_MVKE_OLD</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Sales Data (Old Status)</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>UPD_MVKE</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Type of Change Regarding MVKE</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>UPD_MAKT</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Type of Change Regarding MAKT</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>UPD_MARM</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Type of Change Regarding MARM</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>UPD_MEAN</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Type of Change Regarding MEAN</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>UPD_MLAN</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Type of Change Regarding MLAN</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>UPD_ICDTXT_MATERIAL</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Change Regarding Long Texts</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>UPD_PROW</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Type of Change Regarding PROW</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>UPD_GESV</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Type of Change Regarding GESV</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>UPD_UNGV</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Type of Change Regarding UNGV</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>UPD_MAEX</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Type of Change Regarding MAEX</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>UPD_MAPE</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Type of Change Regarding MAPE</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>UPD_MKAL</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Type of Change Regarding MKAL</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>UPD_QMAT</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Type of Change Regarding QMAT</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>FL_UPD_TASK</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Checkbox</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>T_ICDTXT_MATERIAL</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Key for Changed Long Texts</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>T_MAKT_NEW</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Material Short Texts (New Status)</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>T_MAKT_OLD</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Material Short Texts (New Status)</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>T_MARM_NEW</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Unit of Measure (New Status)</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>T_MARM_OLD</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Unit of Measure (Old Status)</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>T_MEAN_NEW</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>International Article Number (New Status)</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>T_MEAN_OLD</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>International Article Number (Old Status)</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>T_MLAN_NEW</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Tax Classifications (New Status)</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>T_MLAN_OLD</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Tax Classifications (Old Status)</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>T_MAEX_NEW</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Export Control Data (New Status)</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>T_MAEX_OLD</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Export Control Data (Old Status)</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>T_MAPE_NEW</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Material Short Texts (Old Status)</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>T_MAPE_OLD</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Customs Tariff Preference (Old Status)</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>T_MKAL_NEW</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Production Versions (New Status)</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>T_MKAL_OLD</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Production Versions (Old Status)</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>T_PROW_NEW</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Forecast Values (New Status)</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>T_PROW_OLD</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Forecast Values (Old Status)</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>T_QMAT_NEW</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>QM Check Data (New Status)</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>T_QMAT_OLD</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>QM Check Data (Old Status)</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>T_GESV_NEW</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Total Consumption (New Status)</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>T_GESV_OLD</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Total Consumption (Old Status)</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>T_UNGV_NEW</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Unplanned Consumption (New Status)</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>T_UNGV_OLD</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Unplanned Consumption (Old Status)</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>ZDOP_BTE_TEDARIKCI_KONTROL</FUNCNAME>
+     <SHORT_TEXT>Schnittstellenbeschreibung zum Event 00001440</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>I_LFA1</PARAMETER>
+       <DBFIELD>LFA1</DBFIELD>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>I_LFB1</PARAMETER>
+       <DBFIELD>LFB1</DBFIELD>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>I_LFA1_OLD</PARAMETER>
+       <DBFIELD>LFA1</DBFIELD>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>I_LFB1_OLD</PARAMETER>
+       <DBFIELD>LFB1</DBFIELD>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>I_LFM1</PARAMETER>
+       <DBFIELD>LFM1</DBFIELD>
+      </RSIMP>
+     </IMPORT>
+     <TABLES>
+      <RSTBL>
+       <PARAMETER>T_XLFBK</PARAMETER>
+       <DBSTRUCT>FLFBK</DBSTRUCT>
+      </RSTBL>
+      <RSTBL>
+       <PARAMETER>T_YLFBK</PARAMETER>
+       <DBSTRUCT>FLFBK</DBSTRUCT>
+      </RSTBL>
+      <RSTBL>
+       <PARAMETER>T_XLFB5</PARAMETER>
+       <DBSTRUCT>FLFB5</DBSTRUCT>
+      </RSTBL>
+      <RSTBL>
+       <PARAMETER>T_YLFB5</PARAMETER>
+       <DBSTRUCT>FLFB5</DBSTRUCT>
+      </RSTBL>
+      <RSTBL>
+       <PARAMETER>T_XLFZA</PARAMETER>
+       <DBSTRUCT>FLFZA</DBSTRUCT>
+      </RSTBL>
+      <RSTBL>
+       <PARAMETER>T_YLFZA</PARAMETER>
+       <DBSTRUCT>FLFZA</DBSTRUCT>
+      </RSTBL>
+      <RSTBL>
+       <PARAMETER>T_XLFAS</PARAMETER>
+       <DBSTRUCT>FLFAS</DBSTRUCT>
+       <OPTIONAL>X</OPTIONAL>
+      </RSTBL>
+      <RSTBL>
+       <PARAMETER>T_YLFAS</PARAMETER>
+       <DBSTRUCT>FLFAS</DBSTRUCT>
+       <OPTIONAL>X</OPTIONAL>
+      </RSTBL>
+      <RSTBL>
+       <PARAMETER>T_XLFLR</PARAMETER>
+       <DBSTRUCT>FLFLR</DBSTRUCT>
+       <OPTIONAL>X</OPTIONAL>
+      </RSTBL>
+      <RSTBL>
+       <PARAMETER>T_YLFLR</PARAMETER>
+       <DBSTRUCT>FLFLR</DBSTRUCT>
+       <OPTIONAL>X</OPTIONAL>
+      </RSTBL>
+      <RSTBL>
+       <PARAMETER>T_XLFM2</PARAMETER>
+       <DBSTRUCT>FLFM2</DBSTRUCT>
+       <OPTIONAL>X</OPTIONAL>
+      </RSTBL>
+      <RSTBL>
+       <PARAMETER>T_YLFM2</PARAMETER>
+       <DBSTRUCT>FLFM2</DBSTRUCT>
+       <OPTIONAL>X</OPTIONAL>
+      </RSTBL>
+      <RSTBL>
+       <PARAMETER>T_XWYT1</PARAMETER>
+       <DBSTRUCT>FWYT1</DBSTRUCT>
+       <OPTIONAL>X</OPTIONAL>
+      </RSTBL>
+      <RSTBL>
+       <PARAMETER>T_YWYT1</PARAMETER>
+       <DBSTRUCT>FWYT1</DBSTRUCT>
+       <OPTIONAL>X</OPTIONAL>
+      </RSTBL>
+      <RSTBL>
+       <PARAMETER>T_XWYT1T</PARAMETER>
+       <DBSTRUCT>FWYT1T</DBSTRUCT>
+       <OPTIONAL>X</OPTIONAL>
+      </RSTBL>
+      <RSTBL>
+       <PARAMETER>T_YWYT1T</PARAMETER>
+       <DBSTRUCT>FWYT1T</DBSTRUCT>
+       <OPTIONAL>X</OPTIONAL>
+      </RSTBL>
+      <RSTBL>
+       <PARAMETER>T_XWYT3</PARAMETER>
+       <DBSTRUCT>FWYT3</DBSTRUCT>
+       <OPTIONAL>X</OPTIONAL>
+      </RSTBL>
+      <RSTBL>
+       <PARAMETER>T_YWYT3</PARAMETER>
+       <DBSTRUCT>FWYT3</DBSTRUCT>
+       <OPTIONAL>X</OPTIONAL>
+      </RSTBL>
+      <RSTBL>
+       <PARAMETER>T_XLFAT</PARAMETER>
+       <DBSTRUCT>FLFAT</DBSTRUCT>
+       <OPTIONAL>X</OPTIONAL>
+      </RSTBL>
+      <RSTBL>
+       <PARAMETER>T_XLFBW</PARAMETER>
+       <DBSTRUCT>FLFBW</DBSTRUCT>
+       <OPTIONAL>X</OPTIONAL>
+      </RSTBL>
+      <RSTBL>
+       <PARAMETER>T_YLFAT</PARAMETER>
+       <DBSTRUCT>FLFAT</DBSTRUCT>
+       <OPTIONAL>X</OPTIONAL>
+      </RSTBL>
+      <RSTBL>
+       <PARAMETER>T_YLFBW</PARAMETER>
+       <DBSTRUCT>FLFBW</DBSTRUCT>
+       <OPTIONAL>X</OPTIONAL>
+      </RSTBL>
+     </TABLES>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>I_LFA1</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Kreditoren A-Segment</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>I_LFB1</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Kreditoren B-Segment</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>I_LFA1_OLD</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Kreditoren A-Segment alter Stand</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>I_LFB1_OLD</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Kreditoren B-Segment alter Stand</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>I_LFM1</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Einkaufsdaten</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>T_XLFBK</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Bankverbindungen (neu)</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>T_YLFBK</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Bankverbindungen (alt)</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>T_XLFB5</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Mahndaten (alt)</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>T_YLFB5</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Mahndaten (neu)</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>T_XLFZA</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Abweichende Zahlungsempfänger (neu)</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>T_YLFZA</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Abweichende Zahlungsempfänger (alt)</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>T_XLFAS</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>EG-Steuernummern (neu)</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>T_YLFAS</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>EG-Steuernummern (alt)</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>T_XLFLR</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Lieferregionen (neu)</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>T_YLFLR</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Lieferregionen (alt)</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>T_XLFM2</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Einkaufsdaten (neu)</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>T_YLFM2</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Einkaufsdaten (alt)</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>T_XWYT1</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Lieferantenteilsortiment (neu)</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>T_YWYT1</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Lieferantenteilsortiment (alt)</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>T_XWYT1T</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>LiefTeilsortiment-Bezeichnung (neu)</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>T_YWYT1T</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>LiefTeilsortiment-Bezeichnung (alt)</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>T_XWYT3</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Partnerrollen (neu)</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>T_YWYT3</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Partnerrollen (alt)</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>T_XLFAT</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Steuerkategorien (neu)</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>T_XLFBW</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Quellensteuer (neu)</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>T_YLFAT</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Steuerkategorien (alt)</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>T_YLFBW</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Quellensteuer (alt)</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+   </FUNCTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

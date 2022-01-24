@@ -190,7 +190,7 @@ FORM build_layout .
   gs_layout-info_fname = 'LINE_COLOR'.
   gs_layout-sel_mode   = 'A'."hücrelerin seçilebilme kriteri
   gs_layout-stylefname = 'FIELD_STYLE'.
-  gs_layout-info_fname = 'LINE_COLOR'.
+  gs_layout-info_fname = 'LINECOLOR'.
   gs_variant-report     = sy-repid .
 ENDFORM.
 *&---------------------------------------------------------------------*

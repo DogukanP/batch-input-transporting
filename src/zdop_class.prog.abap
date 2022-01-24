@@ -1,0 +1,30 @@
+REPORT zdop_class.
+
+CLASS animal DEFINITION ABSTRACT.
+  PUBLIC SECTION.
+    METHODS : sleep.
+    METHODS : run ABSTRACT.
+ENDCLASS.
+
+CLASS animal IMPLEMENTATION.
+  METHOD sleep.
+    WRITE :/ 'sleep'.
+  ENDMETHOD.
+ENDCLASS.
+
+CLASS cat DEFINITION INHERITING FROM animal.
+  PUBLIC SECTION.
+    METHODS : run REDEFINITION.
+ENDCLASS.
+
+CLASS cat IMPLEMENTATION.
+  METHOD run.
+    WRITE:/ 'run' .
+  ENDMETHOD.
+ENDCLASS.
+
+START-OF-SELECTION.
+
+  DATA(cat1) = NEW cat( ).
+  cat1->sleep( ).
+  cat1->run( ).

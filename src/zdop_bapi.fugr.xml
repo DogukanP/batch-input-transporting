@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_FUGR" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <AREAT>BAPI DENEME FG</AREAT>
+   <INCLUDES>
+    <SOBJ_NAME>LZDOP_BAPITOP</SOBJ_NAME>
+    <SOBJ_NAME>SAPLZDOP_BAPI</SOBJ_NAME>
+   </INCLUDES>
+   <FUNCTIONS>
+    <item>
+     <FUNCNAME>ZDOP_BAPI_MATERIAL_DATA</FUNCNAME>
+     <REMOTE_CALL>R</REMOTE_CALL>
+     <SHORT_TEXT>MALZEME VERİLERİNİN ÇEKİLMESİ BAPI</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>MATERIAL</PARAMETER>
+       <TYP>ZDOP_BAPI_S_MATERIAL</TYP>
+      </RSIMP>
+     </IMPORT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>MATERIAL_DETAIL</PARAMETER>
+       <TYP>ZDOP_BAPI_EXP_MATERIAL</TYP>
+      </RSEXP>
+      <RSEXP>
+       <PARAMETER>RETURN</PARAMETER>
+       <TYP>BAPIRET2</TYP>
+      </RSEXP>
+     </EXPORT>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>MATERIAL</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Material Number</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>MATERIAL_DETAIL</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>EXPORT PARAMETER OF BAPI</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>RETURN</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Dönüş parametresi</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+   </FUNCTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

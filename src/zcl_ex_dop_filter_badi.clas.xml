@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZCL_EX_DOP_FILTER_BADI</CLSNAME>
+    <LANGU>T</LANGU>
+    <DESCRIPT>BAdI Class ZCL_EX_DOP_FILTER_BADI</DESCRIPT>
+    <CATEGORY>01</CATEGORY>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_EX_DOP_FILTER_BADI</CLSNAME>
+     <CMPNAME>FLT_PATTERN</CMPNAME>
+     <LANGU>T</LANGU>
+     <DESCRIPT>Pattern for the filter structure</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_EX_DOP_FILTER_BADI</CLSNAME>
+     <CMPNAME>INSTANCE_BADI_TABLE</CMPNAME>
+     <LANGU>T</LANGU>
+     <DESCRIPT>Instance Attribute INSTANCE_BADI_TABLE of Class ZCL_EX_DOP_F</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_EX_DOP_FILTER_BADI</CLSNAME>
+     <CMPNAME>INSTANCE_FLT_CACHE</CMPNAME>
+     <LANGU>T</LANGU>
+     <DESCRIPT>Instance Attribute INSTANCE_FLT_CACHE of Class ZCL_EX_DOP_FI</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_EX_DOP_FILTER_BADI</CLSNAME>
+     <CMPNAME>VERSION</CMPNAME>
+     <LANGU>T</LANGU>
+     <DESCRIPT>Version indicator of the generator</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>
